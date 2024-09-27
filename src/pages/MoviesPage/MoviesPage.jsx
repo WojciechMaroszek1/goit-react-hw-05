@@ -1,5 +1,5 @@
 const MoviePage = () => {
-	return <h1>Movie Page</h1>;
+	return <h2>Movie Page</h2>;
 };
 
 export default MoviePage;
