@@ -1,0 +1,21 @@
+.navigation {
+	display: flex;
+	justify-content: center;
+}
+.active {
+	color: orange;
+}
+.link {
+	text-decoration: none;
+	font-size: 30px;
+	margin: 10px 10px 10px 10px;
+}
+.link:hover {
+	border-bottom: solid 2px;
+	color: orange;
+	transition: 0.3s;
+}
+
+link:visited {
+	text-decoration: none;
+}

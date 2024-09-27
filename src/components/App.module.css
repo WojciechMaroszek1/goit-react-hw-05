@@ -1,0 +1,10 @@
+.webstyle {
+	width: 1200px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+.navigation_background {
+	background-color: #1b1b71;
+	height: 80px;
+}
