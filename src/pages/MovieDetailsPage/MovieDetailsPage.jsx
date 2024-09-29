@@ -71,10 +71,18 @@ export default function MovieDetailsPage() {
 							<span className={css.strong}>Additional information:</span>
 						</p>
 						<div className={css.add_descr}>
-							<NavLink className={css.btn} to="cast">
+							<NavLink
+								className={css.btn}
+								to={`/movies/${movieId}/cast`}
+								state={{ from: location.pathname }}
+							>
 								Cast
 							</NavLink>
-							<NavLink className={css.btn} to="reviews">
+							<NavLink
+								className={css.btn}
+								to={`/movies/${movieId}/reviews`}
+								state={{ from: location.pathname }}
+							>
 								Reviews
 							</NavLink>
 						</div>

@@ -40,7 +40,13 @@ export default function MoviesPage() {
 			setLoading(false);
 		}
 	}, [listFiltred, searchMade]);
-
+	useEffect(() => {
+		if (location.state?.from) {
+			const { query } = location.state.from;
+			setQuery(query);
+			setFilterQuery(query);
+		}
+	}, [location.state?.from]);
 	return (
 		<>
 			<div className={css.form_search}>

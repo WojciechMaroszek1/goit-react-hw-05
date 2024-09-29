@@ -3,10 +3,7 @@ import css from '../Navigation/NavigationBack.module.css';
 
 export default function NavigationBack() {
 	const location = useLocation();
-	console.log(location);
-
-	const backLink = location.state?.from?.pathname + location.state?.from?.search || '/';
-	console.log(backLink);
+	const backLink = location.state?.from?.pathname || '/';
 
 	return (
 		<NavLink to={backLink} className={css.back_btn}>

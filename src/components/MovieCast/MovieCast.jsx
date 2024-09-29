@@ -6,6 +6,9 @@ export default function MovieCast() {
 	const { cast } = useMovie();
 
 	const castWithPhoto = cast.filter(cast => cast.profile_path !== null);
+	if (!cast) {
+		return <h3>No cast data available.</h3>;
+	}
 
 	return (
 		<div className={css.cast}>
