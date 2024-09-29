@@ -1,19 +1,18 @@
 .navigation {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 }
 .active {
-	color: orange;
+	color: rgb(177, 4, 4);
 }
 .link {
 	text-decoration: none;
 	font-size: 30px;
-	margin: 10px 10px 10px 10px;
+	margin: 40px 2% 10px 2%;
 }
 .link:hover {
 	border-bottom: solid 2px;
-	color: orange;
-	transition: 0.3s;
+	color: rgb(177, 4, 4);
 }
 
 link:visited {

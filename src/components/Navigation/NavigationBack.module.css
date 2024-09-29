@@ -1,0 +1,14 @@
+.back_btn {
+	padding: 10px 20px 10px 20px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 8px;
+	transition: color 0.25s;
+	color: black;
+	border: solid 3px;
+	text-decoration: none;
+}
+.back_btn:hover {
+	transition: 0.2s;
+	color: rgb(177, 4, 4);
+	background-color: rgb(247, 167, 167);
+}
